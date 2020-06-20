@@ -1,0 +1,33 @@
+{
+  "name": "coinp",
+  "version": "1.0.0",
+  "description": "A nodeJS CLI app for cryptocurrency prices",
+  "main": "index.js",
+  "bin": "./bin/coinp.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desirekaleba/coinp.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "prices",
+    "NodeJS",
+    "CLI"
+  ],
+  "author": "Desire Kaleba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desirekaleba/coinp/issues"
+  },
+  "homepage": "https://github.com/desirekaleba/coinp#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "colors": "^1.4.0",
+    "commander": "^5.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.2.0"
+  }
+}
